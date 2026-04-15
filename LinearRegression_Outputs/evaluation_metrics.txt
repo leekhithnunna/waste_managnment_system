@@ -1,0 +1,24 @@
+=======================================================
+  LINEAR REGRESSION — EVALUATION METRICS
+=======================================================
+
+  Model          : LinearRegression
+  Dataset        : ml_ready_dataset.csv
+  Total rows     : 263,160
+  Training rows  : 210,528
+  Testing  rows  : 52,632
+  fit_intercept  : True
+  Scaling        : StandardScaler
+  Random Seed    : 42
+
+-------------------------------------------------------
+  RMSE  (Root Mean Squared Error) : 128.3278
+  MAE   (Mean Absolute Error)     : 105.3430
+  R2    (R-Squared Score)         : 0.7803
+  MAPE  (Mean Abs Percentage Err) : 23.91%
+-------------------------------------------------------
+
+  INTERPRETATION
+  R2 = 0.7803 -> model explains 78.0% of variance
+  RMSE = 128.33 tons — avg prediction error magnitude
+  MAE  = 105.34 tons — avg absolute prediction error

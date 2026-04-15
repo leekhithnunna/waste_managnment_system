@@ -1,0 +1,15 @@
+feature,importance,rank,importance_pct
+population,0.67025036,1,67.025
+population_density,0.13420075,2,13.42
+sector_enc,0.09917716,3,9.918
+location_enc,0.09221208,4,9.221
+zone_enc,0.0012541612,5,0.125
+pollution_index,0.00082230335,6,0.082
+temperature,0.00027220152,7,0.027
+season_enc,0.000266017,8,0.027
+day_of_week,0.00026543584,9,0.027
+humidity,0.00026336085,10,0.026
+weather_condition_enc,0.00025646,11,0.026
+month,0.0002551116,12,0.026
+year,0.00025419015,13,0.025
+is_weekend,0.000250344,14,0.025

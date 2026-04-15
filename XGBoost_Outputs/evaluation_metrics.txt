@@ -1,0 +1,25 @@
+=======================================================
+  XGBOOST REGRESSION — EVALUATION METRICS
+=======================================================
+
+  Model          : XGBRegressor
+  Dataset        : ml_ready_dataset.csv
+  Total rows     : 263,160
+  Training rows  : 210,528
+  Testing  rows  : 52,632
+  n_estimators   : 500
+  max_depth      : 6
+  learning_rate  : 0.1
+  Random Seed    : 42
+
+-------------------------------------------------------
+  RMSE  (Root Mean Squared Error) : 34.8769
+  MAE   (Mean Absolute Error)     : 22.9885
+  R2    (R-Squared Score)         : 0.9838
+  MAPE  (Mean Abs Percentage Err) : 4.34%
+-------------------------------------------------------
+
+  INTERPRETATION
+  R2 = 0.9838 -> model explains 98.4% of variance
+  RMSE = 34.88 tons — avg prediction error magnitude
+  MAE  = 22.99 tons — avg absolute prediction error

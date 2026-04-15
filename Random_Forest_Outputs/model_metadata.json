@@ -1,0 +1,46 @@
+{
+  "model_type": "RandomForestRegressionModel",
+  "spark_version": "4.1.1",
+  "num_trees": 100,
+  "max_depth": 10,
+  "features_col": [
+    "temperature",
+    "humidity",
+    "population",
+    "pollution_index",
+    "population_density",
+    "year",
+    "month",
+    "day_of_week",
+    "is_weekend",
+    "sector_enc",
+    "weather_condition_enc",
+    "location_enc",
+    "season_enc",
+    "zone_enc"
+  ],
+  "label_col": "waste_amount",
+  "seed": 42,
+  "feature_importances": {
+    "temperature": 0.0010790368108014711,
+    "humidity": 0.0012515301926294155,
+    "population": 0.5628329256328926,
+    "pollution_index": 0.02202319974824145,
+    "population_density": 0.21840399767465182,
+    "year": 3.145176310385324e-05,
+    "month": 0.00013756055293189285,
+    "day_of_week": 0.00010844740826768446,
+    "is_weekend": 2.1022325615603104e-05,
+    "sector_enc": 0.1062508112072655,
+    "weather_condition_enc": 0.00021588865675236548,
+    "location_enc": 0.08649916296770707,
+    "season_enc": 8.996055265300651e-05,
+    "zone_enc": 0.0010550045064864088
+  },
+  "metrics": {
+    "rmse": 40.5059,
+    "mae": 29.4261,
+    "r2": 0.9781,
+    "mape": 5.6985
+  }
+}

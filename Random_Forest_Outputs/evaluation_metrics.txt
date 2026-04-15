@@ -1,0 +1,24 @@
+=======================================================
+  RANDOM FOREST REGRESSION — EVALUATION METRICS
+=======================================================
+
+  Model          : RandomForestRegressor
+  Dataset        : ml_ready_dataset.csv
+  Total rows     : 263,160
+  Training rows  : 210,517
+  Testing  rows  : 52,643
+  Num Trees      : 100
+  Max Depth      : 10
+  Random Seed    : 42
+
+-------------------------------------------------------
+  RMSE  (Root Mean Squared Error) : 40.5059
+  MAE   (Mean Absolute Error)     : 29.4261
+  R²    (R-Squared Score)         : 0.9781
+  MAPE  (Mean Abs Percentage Err) : 5.70%
+-------------------------------------------------------
+
+  INTERPRETATION
+  R² = 0.9781 → model explains 97.8% of variance
+  RMSE = 40.51 tons — avg prediction error magnitude
+  MAE  = 29.43 tons — avg absolute prediction error

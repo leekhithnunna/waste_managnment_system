@@ -1,0 +1,18 @@
+{
+  "model": "LinearRegression",
+  "dataset": "ml_ready_dataset.csv",
+  "total_rows": 263160,
+  "train_rows": 210528,
+  "test_rows": 52632,
+  "hyperparameters": {
+    "fit_intercept": true,
+    "n_jobs": -1,
+    "scaler": "StandardScaler"
+  },
+  "metrics": {
+    "rmse": 128.3278,
+    "mae": 105.343,
+    "r2": 0.7803,
+    "mape": 23.9071
+  }
+}
