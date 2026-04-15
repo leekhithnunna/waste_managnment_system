@@ -9,7 +9,7 @@ import sys, os
 import pandas as pd
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from utils    import load_model, FEATURE_COLS, CITY_MAP, SECTOR_MAP, ZONE_MAP
+from src.utils    import load_model, FEATURE_COLS, CITY_MAP, SECTOR_MAP, ZONE_MAP
 from simulate import generate_future_data
 
 
