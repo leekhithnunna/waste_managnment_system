@@ -19,22 +19,28 @@ Run:
 import sys
 import os
 
+# ── Setup Paths (VERY IMPORTANT) ──────────────────────────────────────────────
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-sys.path.append(BASE_DIR)
+SRC_DIR  = os.path.join(BASE_DIR, "src")
 
+sys.path.append(BASE_DIR)
+sys.path.append(SRC_DIR)
+
+# ── Imports ───────────────────────────────────────────────────────────────────
 import streamlit as st
 import pandas as pd
 import numpy as np
 from PIL import Image
 
-from predict   import predict_future
-from visualize import (plot_future_trend,
-                       plot_prediction_distribution,
-                       plot_heatmap)
-from utils     import CITY_MAP, SECTOR_MAP, ZONE_MAP
+from predict import predict_future
+from visualize import (
+    plot_future_trend,
+    plot_prediction_distribution,
+    plot_heatmap
+)
+from utils import CITY_MAP, SECTOR_MAP, ZONE_MAP
 
 # ── Paths ─────────────────────────────────────────────────────────────────────
-BASE_DIR    = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUTPUTS_DIR = os.path.join(BASE_DIR, "outputs")
 
 # ── City coordinates for map visualization ────────────────────────────────────
